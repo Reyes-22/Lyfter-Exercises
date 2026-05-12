@@ -1,0 +1,27 @@
+1.Inicio
+2.Elegir donde ver el video 
+3.Si elige celular: 
+	1.Tome el celular
+	2.Desbloquear el Celular 
+	3.Buscar App de Youtube
+	4.Tocar lupa de busqueda
+	5.Escribir nombre del video
+	6.Seleccionar video
+	7.Ver video  
+4.Sino si elige PC:
+	1.Encender PC
+	2.Poner contraseña de usuario
+	3.Seleccionar navegador de busqueda
+	4.Buscar Pagina web de YouTube
+	5.Buscar video en barra de busqueda
+	6.Seleccionar video 
+	7.Ver video
+5.Sino:
+	1.Encender SmartTV:
+		1.Encender SmartTV
+		2.Presionar tecla de ingreso a YouTube
+		3.Teclear lupa
+		4.Escribir nombre del video
+		5.Seleccionar video
+		6.Ver video 
+6.Fin

@@ -1,0 +1,14 @@
+1.Inicio
+2.Definir tiempo_en_segundos
+3.Definir menor_10minutos
+4.Mostrar “Digite su tiempo en segundos”
+5.Pedir tiempo_en_segundos
+6.Si (tiempo_en_segundos<600) entonces:
+	1.menor_10minutos = 600 - tiempo_en_segundo
+	2.Mostrar menor_10minutos
+7.Sino (tiempo_en_segundos=600) entonces:
+	1.Mostrar “Igual”
+8.Sino:
+	1.Mostrar “Mayor”
+9.FinSi
+10.Fin

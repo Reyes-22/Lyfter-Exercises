@@ -1,0 +1,68 @@
+1.Inicio
+2.Despertarme
+3.Reviso el celular
+4.Si hace frio:
+	1.Me pongo camisa
+5.Me pongo sandalias 
+6.Salgo del cuarto
+7.Si mis papas estan despiertos:
+	1.Saludo a mis papas
+8.Entro a la ducha
+	1.Si hace frio:
+		1.Pongo Agua Caliente
+	2.Sino:
+		1.Pongo Agua Tibia
+9.Salgo de la ducha
+10.Tomo el paño
+11.Mientras este mojado:
+	1.Me paso el paño
+12.Salgo del baño
+13.Si el uniforme esta guardado y planchado:
+	1.Me pongo uniforme
+14.Preparo desayuno
+	1.Si tengo tiempo:
+		1.Preparo buen desayuno
+		2.Pongo un video en Youtube
+		3.Como el desayuno
+	2.Sino:
+		1.Preparo algo rápido y no veo video
+15.Me lavo los dientes
+16.Saco mi motocicleta de la cochera
+17.Mientras mi moto no encienda:
+	1.Tocar switch de encendido
+18.Me pongo casco
+19.Manejo hasta el trabajo
+20.Trabajo
+21.Si es hora de salir y cumpli lo que tengo que terminar:
+	1.Salgo del trabajo
+22.Me pongo casco 
+23.Mientras mi moto no encienda:
+	1.Tocar switch de encendido
+24.Manejo hasta mi casa
+25.Llego a mi casa
+26.Pienso que cenar
+	1.Si mi mama me prepara algo de comer:
+		1.Ceno
+	2.Sino si pido algo de comer:	
+		1.Tomo mi celular
+		2.Pido comida
+		3.Ceno
+	3.Sino:
+		1.Preparo comida yo
+		2.Ceno
+27.Busco algo que hacer
+	1.Si elijo ver TV o jugar PlayStation5:
+		1.Busco al de mi interes
+	2.Sino si elijo estudiar y leer:
+		1.Enciendo PC
+		2.Estudio o leo
+	3.Sino:
+		1.Paso rato con mi familia
+28.Me lavo los dientes
+29.Me voy a dormir
+30.Fin
+
+
+
+
+
