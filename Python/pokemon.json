@@ -1,0 +1,85 @@
+[
+    {
+        "name": {
+            "english": "Pikachu"
+        },
+        "level": 25,
+        "type": [
+            "Electric"
+        ],
+        "base": {
+            "HP": 35,
+            "Attack": 55,
+            "Defense": 40,
+            "Sp. Attack": 50,
+            "Sp. Defense": 50,
+            "Speed": 90
+        }
+    },
+    {
+        "name": {
+            "english": "Charmander"
+        },
+        "level": 15,
+        "type": [
+            "Fire"
+        ],
+        "base": {
+            "HP": 39,
+            "Attack": 52,
+            "Defense": 43,
+            "Sp. Attack": 60,
+            "Sp. Defense": 50,
+            "Speed": 65
+        }
+    },
+    {
+        "name": {
+            "english": "Squirtle"
+        },
+        "level": 18,
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 44,
+            "Attack": 48,
+            "Defense": 65,
+            "Sp. Attack": 50,
+            "Sp. Defense": 64,
+            "Speed": 43
+        }
+    },
+    [
+        {
+            "name": {
+                "english": "Bulbasaur"
+            },
+            "level": 50,
+            "type": "Water",
+            "base": {
+                "Attack": 10,
+                "Defense": 11,
+                "HP": 25,
+                "SP. Attack": 32,
+                "SP. Defense": 23,
+                "SP. Speed": 25
+            }
+        }
+    ],
+    {
+        "name": {
+            "english": "Ivysaur"
+        },
+        "level": 50,
+        "type": "Water",
+        "base": {
+            "Attack": 20,
+            "Defense": 12,
+            "HP": 21,
+            "SP. Attack": 12,
+            "SP. Defense": 52,
+            "SP. Speed": 25
+        }
+    }
+]
