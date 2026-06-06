@@ -7,8 +7,8 @@ def show_menu():
           3. Top 3 best averages.
           4. Overall averages of each student.
           5. Export file.
-          6. Import file
-          7. Exit
+          6. Import file.
+          7. Exit.
           ''')
     while True:
         try:
