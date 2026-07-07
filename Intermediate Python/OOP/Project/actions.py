@@ -48,6 +48,7 @@ def add_new_student(list_of_students):
 
     except ValueError:
         print("Invalid character, Try again!")
+        return list_of_students
 
 
 def show_information_students(list_of_students):
@@ -62,21 +63,21 @@ def show_information_students(list_of_students):
         print("\n")
 
 
-def get_average(list_of_students):
-    return list_of_students["Average Grade"]
+def get_average(student):
+    return student.average_grade
 
 
 def view_top_averages(list_of_students):
     top_3_list = sorted(list_of_students, key=get_average, reverse=True)[:3]
 
     for top3 in top_3_list:
-        print(top3["Name"])
-        print(top3["Average Grade"])
+        print(top3.name)
+        print(top3.average_grade)
         print("\n")
 
 
 def view_all_averages(list_of_students):
     for student in list_of_students:
-        print(student["Name"])
-        print(student["Average Grade"])
+        print(student.name)
+        print(student.average_grade)
         print("\n")

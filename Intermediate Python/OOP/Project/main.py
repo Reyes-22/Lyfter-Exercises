@@ -19,7 +19,8 @@ def selected_option(num):
             case 5:
                 data.export_data(students)
             case 6:
-                students = data.import_data()
+                list_of_dicts = data.import_data()
+                students = data.convert_dicts_to_students(list_of_dicts)
                 actions.show_information_students(students)
         option = menu.show_menu()
 
