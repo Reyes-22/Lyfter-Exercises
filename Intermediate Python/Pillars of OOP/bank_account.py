@@ -1,5 +1,6 @@
 class BankAccount:
-    balance = 0
+    def __init__(self):
+        self.balance = 0
 
     def deposit(self, amount):
         if amount > 0:
@@ -9,18 +10,28 @@ class BankAccount:
     def withdraw(self, amount):
         result = self.balance - amount
 
-        if result > self.minimum_balance:
+        if result >= 0:
             print(f"Withdrawing {amount} from the account.")
             self.balance -= amount
+        else:
+            print(f"Cannot withdraw {amount}. Insufficient balance.")
+
+
+class SavingsAccount(BankAccount):
+    def __init__(self, balance, min_balance):
+        super().__init__()
+        self.balance = balance
+        self.min_balance = min_balance
+
+    def withdraw(self, amount):
+        result = self.balance - amount
+
+        if result >= self.min_balance:
+            super().withdraw(amount)
         else:
             print(
                 f"Cannot withdraw {amount}. Minimum balance requirement not met.")
 
 
-class SavingsAccount(BankAccount):
-    def __init__(self, minimum_balance):
-        self.minimum_balance = minimum_balance
-
-
-my_account = SavingsAccount(100)
-my_account.withdraw(50)
+my_account = SavingsAccount(100, 50)
+my_account.withdraw(70)
